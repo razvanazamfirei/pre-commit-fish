@@ -1,14 +1,6 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:recommended"],
   "packageRules": [
-    {
-      "automerge": true,
-      "matchManagers": [
-        "github-actions",
-        "pre-commit"
-      ]
-    }
+    { "automerge": true, "matchManagers": ["github-actions", "pre-commit"] }
   ]
 }
